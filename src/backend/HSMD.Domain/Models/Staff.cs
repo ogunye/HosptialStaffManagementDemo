@@ -19,5 +19,8 @@ namespace HSMD.Domain.Models
 
         public StaffAddress? StaffAddress { get; set; }
 
+        public Staff() { }
+       
+
     }
 }

@@ -11,5 +11,8 @@ namespace HSMD.Domain.Models
         public int QualificationCode { get; set; }
         public string? QualificationTitle { get; set; }
         public string? QualificationDescription { get; set; }
+
+        public Ref_Qualification() { }
+       
     }
 }

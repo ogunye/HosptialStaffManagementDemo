@@ -12,5 +12,7 @@ namespace HSMD.Domain.Models
         public int QualificationCode { get; set; }
         public DateTime DateObtained { get; set; }
 
+        public Staff_Qualification() { }
+
     }
 }
