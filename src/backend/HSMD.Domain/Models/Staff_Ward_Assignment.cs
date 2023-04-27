@@ -15,5 +15,7 @@ namespace HSMD.Domain.Models
         public int Ward_Id { get; set; }
         public DateTime Date_From { get; set; }
         public DateTime Date_To { get; set;}
+
+        public virtual Staff? Staff { get; set; }
     }
 }

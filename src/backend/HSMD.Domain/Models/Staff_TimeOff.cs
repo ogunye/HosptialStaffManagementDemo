@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HSMD.Domain.Models
 {
-    internal class Staff_TimeOff
+    public class Staff_TimeOff
     {
+        public int Staff_Id { get; set; }
+        public int Ward_Id { get; set; }
+        public DateTime Date_From { get; set; }
+        public DateTime Date_To { get; set;}
     }
 }

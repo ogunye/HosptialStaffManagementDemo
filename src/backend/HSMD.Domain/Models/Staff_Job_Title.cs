@@ -17,6 +17,8 @@ namespace HSMD.Domain.Models
         public DateTime DateFrom { get; set; }
         public DateTime DateTo { get; set; }
 
+        public virtual Staff? Staff { get; set; }
+
         public Staff_Job_Title() { }
     }
 }
