@@ -7,15 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1FE98CDC-174
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{21820EED-39FE-46F0-A737-6B9AEBCFAEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.WebApi", "src\backend\HSMD.WebApi\HSMD.WebApi.csproj", "{5E723488-F050-4011-894C-9E0CAED1477E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.WebApi", "src\backend\HSMD.WebApi\HSMD.WebApi.csproj", "{5E723488-F050-4011-894C-9E0CAED1477E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.Domain", "src\backend\HSMD.Domain\HSMD.Domain.csproj", "{DC9AE29A-CD6E-4F98-9B73-6F7870366D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Domain", "src\backend\HSMD.Domain\HSMD.Domain.csproj", "{DC9AE29A-CD6E-4F98-9B73-6F7870366D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.Application", "src\backend\HSMD.Application\HSMD.Application.csproj", "{6400AE1D-86BA-42E5-B2B1-B1A48DDF6152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Application", "src\backend\HSMD.Application\HSMD.Application.csproj", "{6400AE1D-86BA-42E5-B2B1-B1A48DDF6152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.Infrastrucutre.Data", "src\backend\HSMD.Infrastrucutre.Data\HSMD.Infrastrucutre.Data.csproj", "{6CEB8EBE-3CDF-4B1F-B8DF-ED4EB794A087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Infrastrucutre.Data", "src\backend\HSMD.Infrastrucutre.Data\HSMD.Infrastrucutre.Data.csproj", "{6CEB8EBE-3CDF-4B1F-B8DF-ED4EB794A087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMD.Infrastructure_Identity", "src\backend\HSMD.Infrastructure_Identity\HSMD.Infrastructure_Identity.csproj", "{6ABEBC18-374B-425A-BFF0-F5063A465BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HSMD.Infrastructure_Identity", "src\backend\HSMD.Infrastructure_Identity\HSMD.Infrastructure_Identity.csproj", "{6ABEBC18-374B-425A-BFF0-F5063A465BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "src\backend\LoggerManager\LoggerService.csproj", "{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{6ABEBC18-374B-425A-BFF0-F5063A465BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ABEBC18-374B-425A-BFF0-F5063A465BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ABEBC18-374B-425A-BFF0-F5063A465BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{6400AE1D-86BA-42E5-B2B1-B1A48DDF6152} = {21820EED-39FE-46F0-A737-6B9AEBCFAEEB}
 		{6CEB8EBE-3CDF-4B1F-B8DF-ED4EB794A087} = {21820EED-39FE-46F0-A737-6B9AEBCFAEEB}
 		{6ABEBC18-374B-425A-BFF0-F5063A465BA1} = {21820EED-39FE-46F0-A737-6B9AEBCFAEEB}
+		{1E714A7A-717A-4E4A-AFE5-945E3DD7E7B5} = {21820EED-39FE-46F0-A737-6B9AEBCFAEEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECC1CF9A-C02D-4FB8-878C-BF43B413001D}
